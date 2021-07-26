@@ -1,0 +1,641 @@
+html,
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+.topFixedBanner{
+    background-image: url("../image/slider-banner-1.jpg");
+    height: 820px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.topFixedBannerOverlay{
+    position: absolute;
+    width: 100%;
+    height: 820px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.topContent{
+    margin-top: 18rem;
+}
+
+.subTopMargin{
+    margin-top: 50px;
+}
+
+.subTopMargin1{
+    margin-top: 40px;
+}
+
+.topTitle{
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+
+.topSubtitle{
+    font-family: 'Work Sans', sans-serif;
+    color: #ffffff;
+}
+
+.buttonCSS{
+    padding: 7px 35px 7px 35px !important;
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.commonTitle{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: #000000;
+}
+
+.commonMargin{
+    margin-top: 80px;
+}
+
+.teamMargin2{
+    margin-top: 80px;
+}
+
+.iconMargin{
+    margin-top: 25px;
+}
+
+.iconCSS{
+    font-size: 50px !important;
+    color: #007bff !important;
+}
+
+
+
+.serviceHeader{
+    color: #000000;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+}
+
+
+
+.serviceSubHeader{
+    color: #000000;
+    font-size: 19px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+.hoverShadow{
+
+    height: 22rem;
+    box-shadow: 0 0 0px 0 rgba(0,115,230,0.2);
+
+}
+
+.hoverShadow:hover {
+    height: 20rem;
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px 0 rgba(19, 115, 195, 0.2);
+
+}
+
+.summaryFixedBanner{
+    background-image: url("../image/summary.jpg");
+    height: 250px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.summaryFixedBannerOverlay{
+    position: absolute;
+    height: 250px;
+    width: 100%;
+    background: rgba(93, 192, 234,0.9);
+}
+
+
+.summaryNumber{
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+}
+
+.summaryNames{
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.processHeader{
+    color: #000000;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+
+}
+
+.processMargin{
+    margin-top: 20px;
+}
+
+
+.processDescription{
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.checkIcon{
+    font-size: 10px!important;
+}
+
+.cardCSS{
+    height: 480px;
+    width: 400px;
+
+    border-radius: 3px !important;
+    background-image: url("../image/video-banner.jpg");
+    margin-top: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.processButtonCSS{
+    padding: 8px 35px 8px 35px !important;
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    font-family: 'Quicksand', sans-serif;
+    margin-right: 370px !important;
+
+}
+
+
+.videoPlayButton{
+    margin-top: 200px !important;
+    color: #005cbf !important;
+    font-size: 35px!important;
+}
+
+.testimonialHeaderMargin{
+    margin-top: 100px;
+}
+
+.cardFixedBanner{
+    background-image: url("../image/bann-er.jpg");
+    height: 600px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.cardFixedBannerOverlay{
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    background: rgba(0,0,0,0.3);
+}
+
+.globalBusinessSubTitle{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 16px !important;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 5px;
+    margin-top: 80px;
+}
+
+.globalBusinessTitle{
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.globalCardMargin{
+    margin-top: 260px;
+}
+
+.globalCardHeightWidth{
+    margin: 5px 5px 5px 5px;
+    height: 25rem;
+    background-color: #ffffff;
+    padding: 60px 30px 60px 30px;
+    box-shadow: 0 0 10px 0 rgba(0,115,230,0.2);
+    border-radius: 5px;
+}
+
+.iconCSS1{
+    font-size: 50px !important;
+    color: #007bff !important;
+    padding: 30px 25px 30px 25px !important;
+}
+
+
+.cardMargin{
+    margin-top: 10rem;
+
+}
+
+.cardHeader{
+    font-weight: 600 !important;
+    font-family: 'Quicksand', sans-serif !important;
+    font-size: 25px !important;
+
+}
+
+.cardSubHeader{
+    color: #5b5959 !important;
+    font-family: 'Quicksand', sans-serif !important;
+    font-size: 15px !important;
+    font-weight: 400;
+}
+
+
+
+.testimonialHeader{
+
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 210px;
+
+}
+
+.testimonialBackground{
+    background-color: #007bff;
+}
+
+
+.testimonialCard{
+    height: 15rem;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+
+.testimonialMargin{
+    margin-top: 210px;
+}
+
+
+
+.testimonialDescription{
+    text-align: left;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+.testHeader{
+    text-align: left !important;
+    font-family: 'Quicksand', sans-serif;
+    font-weight:  700;
+    font-size: 20px;
+
+
+}
+
+.testHeader2{
+    color: #005cbf;
+    font-weight: 600;
+    text-align: left !important;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.teamHeader{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.teamHeader2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 150px !important;
+}
+
+.teamSubHeader{
+    font-family: 'Quicksand', sans-serif !important;
+    font-size: 18px;
+    color: #454545;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+.teamCard{
+    margin: 5px 5px 5px 5px;
+    height: 26rem;
+    border-radius: 5px;
+    padding: 60px 30px 60px 30px;
+    box-shadow: 0 0 10px 0 rgba(0,115,230,0.2);
+
+}
+
+.cardPadding{
+  margin: 20px 80px 20px 80px;
+}
+
+.teamMemberPost{
+    color: #007bff;
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.socialIconCss{
+    font-size: 25px !important;
+    padding: 12px !important;
+}
+
+.socialIconCss:hover{
+    color: #000;
+}
+
+
+.latestNewsMargin{
+    margin-top: 80px;
+}
+
+
+
+
+.newsPTag{
+
+    font-family: 'Quicksand', sans-serif;
+    font-size: 19px;
+    color: #535252;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.newsDateCss{
+    color: #007bff;
+    letter-spacing: 3px;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 19px;
+    text-align: left;
+}
+
+
+.newsDescription{
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    text-align: left;
+}
+
+.teamMemberImage{
+    margin: 0px;
+}
+
+.newsImage{
+    height: 250px;
+    width: 100%;
+}
+
+.projectBackground{
+    background: #61a0ce;
+    height: 400px;
+}
+
+
+.projectPortionMargin{
+    margin-top: 50px;
+}
+
+.projectHeader{
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 1px;
+    font-size: 40px ;
+    margin-top: 80px !important;
+
+}
+
+.projectSubHeader{
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.footerHeader{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #000000;
+}
+
+
+.footerIconName{
+    font-weight: 600 !important;
+    font-family: 'Quicksand', sans-serif !important;
+    font-size: 15px;
+}
+
+.footerIconName:hover{
+    text-decoration: none !important;
+    cursor: pointer;
+    color: black;
+}
+
+
+.footerAddress{
+
+   font-family: 'Quicksand', sans-serif;
+    color: #000000 !important;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left !important;
+}
+
+
+.projectButton{
+    background: #61a0ce !important;
+    border: 2px solid #ffffff !important;
+    text-transform: uppercase !important;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    padding: 10px 40px 10px 40px !important;
+}
+
+.backgroundCommon{
+    background: #888888;
+}
+
+
+
+.experiment{
+    background-color: #f7f7f7;
+    min-height: 650px;
+    margin-top: 0px !important;
+}
+
+.newsMargin{
+    margin-top : 100px;
+}
+
+
+.navPadding{
+    padding: 200px;
+}
+
+
+
+.navTitleScroll{
+    color: #ffffff !important;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px !important;
+}
+
+.navBackground{
+    -webkit-transition:background-color 400ms linear ;
+    -moz-transition:background-color 400ms linear ;
+    -o-transition:background-color 400ms linear ;
+    transition:background-color 400ms linear ;
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.navBackgroundScroll{
+    -webkit-transition:background-color 400ms linear ;
+    -moz-transition:background-color 400ms linear ;
+    -o-transition:background-color 400ms linear ;
+    transition:background-color 400ms linear ;
+    background-color:  #61a0ce !important;
+}
+
+
+.navItem{
+
+    text-decoration: none !important;
+    color: #ffffff!important;
+    font-family: 'Quicksand', sans-serif !important;
+    font-weight: 700 !important;
+    padding: 20px 50px 20px 50px   !important;
+    margin-left: 28px !important;
+
+
+}
+
+.navItemScroll{
+    text-decoration: none !important;
+    color: #ffffff !important;
+    font-family: 'Quicksand', sans-serif !important;
+    font-weight: 700 !important;
+    padding: 20px 50px 20px 50px   !important;
+    margin-left: 28px !important;
+
+
+}
+
+.whoWeAreMargin{
+    margin-top: 180px;
+}
+
+
+.whoWeAre{
+    color: #000000;
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+    text-align: left;
+}
+
+.whoWeAreDesc{
+    line-height: 30px;
+    text-align: left;
+    color: #707070;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+
+}
+
+.imageSignature{
+    margin-top: 50px;
+}
+
+
+.MissVisValHeader{
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 36px;
+    text-align: left;
+}
+
+.MissVisValDesc{
+    line-height: 30px;
+    text-align: left;
+    color: #707070;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+
+}
+
+.contactFixedBanner{
+    background-image: url("../image/Contact.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.contactFixedBannerOverlay{
+    position: absolute;
+    min-height: 500px;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+}
+
+.contactHeader{
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-top: 230px !important;
+}
+
+.contactNameEmail{
+   text-align: left !important;
+}

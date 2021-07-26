@@ -1,0 +1,87 @@
+
+
+
+
+@media (min-width: 10px) and (max-width: 575.98px){
+
+    .topTitle{font-size: 35px !important;}
+    .topFixedBanner{ height: 600px !important;  }
+    .topFixedBannerOverlay{  width: 100%; height: 600px !important; }
+    .topContent{  margin-top: 12rem !important;}
+    .commonTitle{ font-size: 35px !important;}
+    .iconCSS{margin-top: 0px !important;}
+    .summaryFixedBanner{ height: 550px !important; }
+    .summaryFixedBannerOverlay{height: 550px !important; }
+    .cardCSS{ margin-left: 10px !important;}
+    .cardMargin{ margin-top: 240px !important;}
+    .cardFixedBannerOverlay{ height: 400px !important; }
+    .cardFixedBanner{height: 400px !important;}
+    .globalBusinessTitle{font-size: 25px !important;}
+    .testimonialHeaderMargin{margin-top: 140px !important;}
+    .testimonialMargin{ margin-top: 1370px !important;  }
+    .testimonialCard{height: 17rem !important;}
+    .teamSubHeader{ font-size: 16px !important;}
+    .projectHeader{font-size: 34px !important;}
+    .projectSubHeader{ font-size: 16px !important; }
+
+
+    .globalCardHeightWidth{
+
+        margin: 5px 5px 5px 5px !important;
+        height: 25rem !important;
+        width: 100% !important;
+        background-color: #ffffff !important;
+        padding: 60px 30px 60px 30px !important;
+        box-shadow: 0 0 10px 0 rgba(0,115,230,0.2) !important;
+        border-radius: 5px !important;
+    }
+
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .topTitle{font-size: 45px !important;}
+    .summaryFixedBanner{ height: 540px !important; }
+    .summaryFixedBannerOverlay{height: 540px !important; }
+    .cardCSS{ margin-left: 0px !important;}
+    .processButtonCSS{ padding: 8px 25px 8px 25px !important; font-size: 13px !important;}
+    .cardMargin{ margin-top: 280px;}
+    .testimonialHeaderMargin{margin-top: 1100px;}
+    .testimonialHeader{margin-top: 340px !important;}
+    .testimonialCard{width: 100% !important;}
+    .testimonialMargin{ margin-top: 1250px !important;}
+    .cardFixedBannerOverlay{ height: 400px !important; }
+    .cardFixedBanner{height: 400px !important;}
+    .commonTitle{ font-size: 45px !important;}
+    .testimonialCard{height: 19rem !important;}
+    .testimonialMargin{ margin-top: 1350px !important;  }
+    .teamMargin2{ margin-top: 80px !important; }
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .testimonialMargin{ margin-top: 710px !important;  }
+    .teamMemberImage{ width: 90% !important;}
+    .socialIconCss{ padding: 10px !important;}
+    .serviceHeader{font-size: 18px !important;}
+    .teamCard{height: 22rem !important;}
+    .teamMargin2{margin-top: 40px !important;}
+
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .testHeader2{font-size: 10px !important;}
+    .testHeader{ font-size: 13px !important;}
+
+}
+
+
+@media (min-width: 1200px) {
+
+}
